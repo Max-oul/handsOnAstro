@@ -2,9 +2,6 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "Astro";
 ---
-
-<html lang="en">
-	<BaseLayout>
-		<h2>My awebsome blog subtitle</h2>
-	</BaseLayout>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+	<h2>My awebsome blog subtitle</h2>
+</BaseLayout>
